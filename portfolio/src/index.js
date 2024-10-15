@@ -1,8 +1,8 @@
 // src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'; // Si tu as un fichier CSS
-import App from './App'; // Import de ton composant App
+import './index.css'; 
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
