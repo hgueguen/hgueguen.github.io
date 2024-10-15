@@ -2,7 +2,11 @@
 import React from 'react';
 
 function About() {
-    return <h1>À propos de moi</h1>;
+    return (
+        <div>
+            <h2>À propos de moi</h2>
+        </div>
+    )
 }
 
 export default About;

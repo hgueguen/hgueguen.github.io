@@ -1,0 +1,132 @@
+nav {
+    padding: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    color: #5b7569;
+}
+
+.nav-links {
+    display: flex; 
+    flex: 1; 
+    justify-content: center; 
+}
+
+.nav-link {
+    color: #5b7569;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    white-space: nowrap;
+}
+
+.nav-contact {
+    color: #ffffff;
+    background-color: #5b7569;
+    padding: 10%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.nav-link:hover, .nav-contact:hover {
+    text-decoration: underline;
+}
+
+.logoImage {
+    max-width: 100%;
+    max-height: 5rem;
+    width: auto; 
+    height: auto; 
+    border-radius: 50%;
+}
+
+body {
+    background-color: rgb(237, 237, 235);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* S'assure que le body prend toute la hauteur de la fenêtre */
+    margin: 0;
+}
+
+.titleHomePage {
+    font-size: 5.5rem;
+    color: #5b7569;
+    margin: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 65%;
+}
+
+.homeTitleAndPhoto {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    opacity: 0; /* Démarre en invisible */
+    transform: translateY(30px); /* Décale légèrement vers le bas */
+    transition: opacity 1s ease, transform 1s ease; /* Ajoute l'effet ease */
+}
+
+.imageHortenseGueguen {
+    max-width: 100%;
+    max-height: 30rem;
+    width: auto; 
+    height: auto; 
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.photoHomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appContainer {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    min-height: 100vh; /* Assure que le conteneur prend au moins la hauteur de la fenêtre */
+}
+
+.footer {
+    display: flex;
+    justify-content: center; /* Centrer le contenu du footer */
+    align-items: center; /* Aligne le contenu verticalement */
+    background-color: #5b7569;
+    color: #ffffff;
+    padding: 0.7rem;
+    font-size: 0.5rem;
+    margin-top: auto; /* Assure que le footer reste en bas */
+}
+
+.homeDescription {
+    font-size: 1.5rem;
+    color: #5b7569;
+    text-align: center;
+    opacity: 0; /* Démarre en invisible */
+    transform: translateY(50px); /* Décale légèrement vers le bas */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Ajoute l'effet ease */
+}
+
+.show {
+    opacity: 1; /* Devient visible */
+    transform: translateY(0); /* Remet à sa position d'origine */
+}
+
+.show2 {
+    opacity: 1; /* Devient visible */
+    transform: translateY(0); /* Remet à sa position d'origine */
+}
+
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url('./assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
