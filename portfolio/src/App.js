@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, useRef, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 
